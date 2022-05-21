@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./images/icon_bags.png" type="image/x-icon">
+
+    <!-- Box icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+
+    <!-- Custom StyleSheet -->
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+    <title>Boys Clothing</title>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="navigation container">
+            <div class="logo">
+                <h1>D&D</h1>
+            </div>
+
+            <div class="menu">
+                <div class="top-nav">
+                    <div class="logo">
+                        <h1>D&D</h1>
+                    </div>
+                    <div class="close">
+                        <i class="bx bx-x"></i>
+                    </div>
+                </div>
+
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="product.html" class="nav-link">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Account</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="cart.html" class="nav-link icon"><i class="bx bx-shopping-bag"></i></a>
+                    </li>
+                </ul>
+            </div>
+
+            <a href="cart.html" class="cart-icon">
+                <i class="bx bx-shopping-bag"></i>
+            </a>
+
+            <div class="hamburger">
+                <i class="bx bx-menu"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 2</div>
+            <img src="./images/boys_slideshow_1.jpg" style="width:100%">
+            <div class="text" style="right: 12%;">
+                <h2 style="font-size: 2rem;">UP TO</h2>
+                <h1 style="font-size: 10rem;">75%</h1>
+                <h1 style="font-size: 10rem;">OFF</h1>
+                <h3 style="font-family: 'Yellowtail', cursive; font-size: 3rem; font-style: italic; color: black;">
+                    Summer</h3>
+                <h2
+                    style="background-color: white; color: black; font-size: 2rem; padding: 4px 7px; letter-spacing: 2px;">
+                    WAREHOUSE SALE</h2>
+            </div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 2</div>
+            <img src="./images/boys_slideshow_2.jpg" style="width:100%">
+            <div class="text" style="right: 2%;">
+                <h2 style="font-size: 1rem; padding-bottom: 10px;">NEW PRODUCTS IN</h2>
+                <h2 style="font-size: 2rem; font-weight: bold; letter-spacing: 2PX;">BOYS COLLECTION</h2>
+                <h1 style="font-size: 3.5rem; padding-top: 30px;">ENTIRE BOYS PURCHASE</h1>
+                <h1 style="font-size: 3.5rem; ">SAVE UP TO</h1>
+                <h1 style="font-size: 3.5rem; padding-bottom: 30px;">50%</h1>
+                <h3 style="font-size: 2rem;">use code 9999 to get best</h3>
+                <h2 style="font-size: 2.5rem; padding: 5px 0px 50px 0px;">Discount</h2>
+                <span
+                    style="margin-top: 50px; padding: 5px 15px; background-color: #f60091; border-radius: 19px; cursor: pointer;">Shop
+                    Now</span>
+            </div>
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides()">&#10094;</a>
+        <a class="next" onclick="plusSlides()">&#10095;</a>
+
+    </div>
+
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide()"></span>
+        <span class="dot" onclick="currentSlide()"></span>
+    </div>
+    <br>
+
+    <!-- boys Clothing heading -->
+    <div class="title courser_pointer">
+        <h1>Boys Clothing</h1>
+    </div>
+
+    <!-- boys product -->
+    <div class="product-center container">
+
+        <div class="product">
+            <div class="liked">
+                <span><i class="bx bx-heart"></i></span>
+            </div>
+            <div class="product-header">
+                <img src="./images/boys t-shirt 2.jpg" alt="" class="product-img">
+
+                <ul class="icons">
+                    <span><i class="bx bx-heart btn-like"></i></span>
+                    <span><i class="bx bx-shopping-bag btn-addCart"></i></span>
+                    <span><i class="bx bx-search btn-search"></i></span>
+                </ul>
+            </div>
+            <div class="product-footer">
+                <a href="#">
+                    <h3 class="product-name">Boy's T-Shirt</h3>
+                </a>
+                <div class="rating">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bx-star"></i>
+                </div>
+                <h4 class="price">₹ 999/-</h4>
+            </div>
+        </div>
+
+        <div class="product">
+            <div class="liked">
+                <span><i class="bx bx-heart"></i></span>
+            </div>
+            <div class="product-header">
+                <img src="./images/boys t-shirt 4.jpg" alt="" class="product-img">
+
+                <ul class="icons">
+                    <span><i class="bx bx-heart btn-like"></i></span>
+                    <span><i class="bx bx-shopping-bag btn-addCart"></i></span>
+                    <span><i class="bx bx-search btn-search"></i></span>
+                </ul>
+            </div>
+            <div class="product-footer">
+                <a href="#">
+                    <h3 class="product-name">Boy's T-Shirt</h3>
+                </a>
+                <div class="rating">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bx-star"></i>
+                </div>
+                <h4 class="price">₹ 899/-</h4>
+            </div>
+        </div>
+
+        <div class="product">
+            <div class="liked">
+                <span><i class="bx bx-heart"></i></span>
+            </div>
+            <div class="product-header">
+                <img src="./images/boys t-shirt 5.jpg" alt="" class="product-img">
+
+                <ul class="icons">
+                    <span><i class="bx bx-heart btn-like"></i></span>
+                    <span><i class="bx bx-shopping-bag btn-addCart"></i></span>
+                    <span><i class="bx bx-search btn-search"></i></span>
+                </ul>
+            </div>
+            <div class="product-footer">
+                <a href="#">
+                    <h3 class="product-name">Boy's T-Shirt</h3>
+                </a>
+                <div class="rating">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bx-star"></i>
+                </div>
+                <h4 class="price">₹ 699/-</h4>
+            </div>
+        </div>
+
+        <div class="product">
+            <div class="liked">
+                <span><i class="bx bx-heart"></i></span>
+            </div>
+            <div class="product-header">
+                <img src="./images/boys t-shirt 6.jpg" alt="" class="product-img">
+
+                <ul class="icons">
+                    <span><i class="bx bx-heart btn-like"></i></span>
+                    <span><i class="bx bx-shopping-bag btn-addCart"></i></span>
+                    <span><i class="bx bx-search btn-search"></i></span>
+                </ul>
+            </div>
+            <div class="product-footer">
+                <a href="#">
+                    <h3 class="product-name">Boy's T-Shirt</h3>
+                </a>
+                <div class="rating">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bx-star"></i>
+                </div>
+                <h4 class="price">₹ 1199/-</h4>
+            </div>
+        </div>
+
+        <div class="product">
+            <div class="liked">
+                <span><i class="bx bx-heart"></i></span>
+            </div>
+            <div class="product-header">
+                <img src="./images/mens jeans 4.jpg" alt="" class="product-img">
+
+                <ul class="icons">
+                    <span><i class="bx bx-heart btn-like"></i></span>
+                    <span><i class="bx bx-shopping-bag btn-addCart"></i></span>
+                    <span><i class="bx bx-search btn-search"></i></span>
+                </ul>
+            </div>
+            <div class="product-footer">
+                <a href="#">
+                    <h3 class="product-name">Boy's Jeans</h3>
+                </a>
+                <div class="rating">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bx-star"></i>
+                </div>
+                <h4 class="price">₹ 2199/-</h4>
+            </div>
+        </div>
+
+        <div class="product">
+            <div class="liked">
+                <span><i class="bx bx-heart"></i></span>
+            </div>
+            <div class="product-header">
+                <img src="./images/mens jeans 2.jpg" alt="" class="product-img">
+                <ul class="icons">
+                    <span><i class="bx bx-heart btn-like"></i></span>
+                    <span><i class="bx bx-shopping-bag btn-addCart"></i></span>
+                    <span><i class="bx bx-search btn-search"></i></span>
+                </ul>
+            </div>
+            <div class="product-footer">
+                <a href="#">
+                    <h3 class="product-name">Boy's Jeans</h3>
+                </a>
+                <div class="rating">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bx-star"></i>
+                </div>
+                <h4 class="price">₹ 2599/-</h4>
+            </div>
+        </div>
+
+        <div class="product">
+            <div class="liked">
+                <span><i class="bx bx-heart"></i></span>
+            </div>
+            <div class="product-header">
+                <img src="./images/mens jeans 3.jpg" alt="" class="product-img">
+
+                <ul class="icons">
+                    <span><i class="bx bx-heart btn-like"></i></span>
+                    <span><i class="bx bx-shopping-bag btn-addCart"></i></span>
+                    <span><i class="bx bx-search btn-search"></i></span>
+                </ul>
+            </div>
+            <div class="product-footer">
+                <a href="#">
+                    <h3 class="product-name">Boy's Jeans</h3>
+                </a>
+                <div class="rating">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bx-star"></i>
+                </div>
+                <h4 class="price">₹ 2299/-</h4>
+            </div>
+        </div>
+
+        <div class="product">
+            <div class="liked">
+                <span><i class="bx bx-heart"></i></span>
+            </div>
+            <div class="product-header">
+                <img src="./images/mens jeans 5.jpg" alt="" class="product-img">
+
+                <ul class="icons">
+                    <span><i class="bx bx-heart btn-like"></i></span>
+                    <span><i class="bx bx-shopping-bag btn-addCart"></i></span>
+                    <span><i class="bx bx-search btn-search"></i></span>
+                </ul>
+            </div>
+            <div class="product-footer">
+                <a href="#">
+                    <h3 class="product-name">Boy's Jeans</h3>
+                </a>
+                <div class="rating">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bx-star"></i>
+                </div>
+                <h4 class="price">₹ 1899/-</h4>
+            </div>
+        </div>
+
+        <div class="product">
+            <div class="liked">
+                <span><i class="bx bx-heart"></i></span>
+            </div>
+            <div class="product-header">
+                <img src="./images/mens shirt 2.jpg" alt="" class="product-img">
+                <ul class="icons">
+                    <span><i class="bx bx-heart btn-like"></i></span>
+                    <span><i class="bx bx-shopping-bag btn-addCart"></i></span>
+                    <span><i class="bx bx-search btn-search"></i></span>
+                </ul>
+            </div>
+            <div class="product-footer">
+                <a href="#">
+                    <h3 class="product-name">Boy's Shirt</h3>
+                </a>
+                <div class="rating">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bx-star"></i>
+                </div>
+                <h4 class="price">₹ 999/-</h4>
+            </div>
+        </div>
+
+        <div class="product">
+            <div class="liked">
+                <span><i class="bx bx-heart"></i></span>
+            </div>
+            <div class="product-header">
+                <img src="./images/mens shirt 3.jpg" alt="" class="product-img">
+                <ul class="icons">
+                    <span><i class="bx bx-heart btn-like"></i></span>
+                    <span><i class="bx bx-shopping-bag btn-addCart"></i></span>
+                    <span><i class="bx bx-search btn-search"></i></span>
+                </ul>
+            </div>
+            <div class="product-footer">
+                <a href="#">
+                    <h3 class="product-name">Boy's Shirt</h3>
+                </a>
+                <div class="rating">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bx-star"></i>
+                </div>
+                <h4 class="price">₹ 1499/-</h4>
+            </div>
+        </div>
+
+        <div class="product">
+            <div class="liked">
+                <span><i class="bx bx-heart"></i></span>
+            </div>
+            <div class="product-header">
+                <img src="./images/mens shirt 4.jpg" alt="" class="product-img">
+
+                <ul class="icons">
+                    <span><i class="bx bx-heart btn-like"></i></span>
+                    <span><i class="bx bx-shopping-bag btn-addCart"></i></span>
+                    <span><i class="bx bx-search btn-search"></i></span>
+                </ul>
+            </div>
+            <div class="product-footer">
+                <a href="#">
+                    <h3 class="product-name">Boy's Shirt</h3>
+                </a>
+                <div class="rating">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bx-star"></i>
+                </div>
+                <h4 class="price">₹ 1199/-</h4>
+            </div>
+        </div>
+
+        <div class="product">
+            <div class="liked">
+                <span><i class="bx bx-heart"></i></span>
+            </div>
+            <div class="product-header">
+                <img src="./images/mens shirt 6.jpg" alt="" class="product-img">
+
+                <ul class="icons">
+                    <span><i class="bx bx-heart btn-like"></i></span>
+                    <span><i class="bx bx-shopping-bag btn-addCart"></i></span>
+                    <span><i class="bx bx-search btn-search"></i></span>
+                </ul>
+            </div>
+            <div class="product-footer">
+                <a href="#">
+                    <h3 class="product-name">Boy's Shirt</h3>
+                </a>
+                <div class="rating">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bx-star"></i>
+                </div>
+                <h4 class="price">₹ 1999/-</h4>
+            </div>
+        </div>
+
+    </div>
+
+
+    <section class="pagination">
+        <div class=" container">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span><i class='bx bx-right-arrow-alt'></i></span>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer id="footer" class="section footer">
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-center">
+                    <h3>EXTRAS</h3>
+                    <a href="#">Brands</a>
+                    <a href="#">Gift Certificates</a>
+                    <a href="#">Affiliate</a>
+                    <a href="#">Specials</a>
+                    <a href="#">Site Map</a>
+                </div>
+                <div class="footer-center">
+                    <h3>INFORMATION</h3>
+                    <a href="#">About Us</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms & Conditions</a>
+                    <a href="#">Contact Us</a>
+                    <a href="#">Site Map</a>
+                </div>
+                <div class="footer-center">
+                    <h3>MY ACCOUNT</h3>
+                    <a href="#">My Account</a>
+                    <a href="#">Order History</a>
+                    <a href="#">Wish List</a>
+                    <a href="#">Newsletter</a>
+                    <a href="#">Returns</a>
+                </div>
+                <div class="footer-center">
+                    <h3>CONTACT US</h3>
+                    <div>
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                        </span>
+                        <!-- Charusat University, changa, Anand, Gujarat -->
+                        Bhavnagar, Gujarat, India
+                    </div>
+                    <div>
+                        <span>
+                            <i class="far fa-envelope"></i>
+                        </span>
+                        D&D@gmail.com
+                    </div>
+                    <div>
+                        <span>
+                            <i class="fas fa-phone"></i>
+                        </span>
+                        123456789
+                    </div>
+                    <div>
+                        <span>
+                            <i class="far fa-paper-plane"></i>
+                        </span>
+                        Bhavnagar, India
+                    </div>
+                    <div>
+                        <!-- <span>
+              <i></i>
+            </span> -->
+                        <div class="social_media">
+                            <a href="https://www.google.com/" target="_blank" title="email">
+                                <img src="./images/email.png" alt="Email">
+                            </a>
+                            <a href="https://www.facebook.com/" target="_blank" title="facebook">
+                                <img src="./images/facebook.png" alt="Facebook">
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank" title="instagram">
+                                <img src="./images/instagram.png" alt="Instagram">
+                            </a>
+                            <a href="https://twitter.com/" target="_blank" title="twitter">
+                                <img src="./images/twitter.png" alt="Twitter">
+                            </a>
+                            <!-- <a href="https://www.snapchat.com/" target="_blank" title="snapchat">
+                  <img src="./images/snapchat.png" alt="Snapchat">
+              </a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <!-- Custom Script -->
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
